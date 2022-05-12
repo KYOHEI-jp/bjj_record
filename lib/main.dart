@@ -57,19 +57,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.contacts),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.map),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.chat),
-          ),
-        ],
-      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
